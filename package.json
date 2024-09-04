@@ -1,5 +1,5 @@
 {
-  "name": "nova_api",
+  "name": "api_url_base",
   "version": "2.0.0",
   "description": "API novo",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js"
   },
-  "author": "Evelyn881",
+  "author": "Vidal803",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
