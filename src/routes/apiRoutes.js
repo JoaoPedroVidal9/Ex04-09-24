@@ -12,3 +12,11 @@ module.exports = router;
 
 // //Rota GET para '/teacher'
 router.get('/teacher/',teacherController.getTeacher);
+
+const controllerNumbers = require('../controllers/controllerNumbers');
+
+//Rota POST dos pares para '/par/'
+router.post('/par/',controllerNumbers.checkPar);
+
+//Rota POST dos primos para '/primo/'
+router.post('/primo/',controllerNumbers.checkPrimo);
